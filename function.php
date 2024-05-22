@@ -1,9 +1,9 @@
 <?php
 // variables for connection to database
 $host = "localhost";
-$user = "id22203201_adi401";
-$pass = "pw2UTS_401";
-$db = "id22203201_inventory";
+$user = "root";
+$pass = "";
+$db = "inventory";
 
 // connect to database
 $conn = mysqli_connect($host, $user, $pass, $db);
@@ -59,6 +59,7 @@ function TambahUbah($data)
                 VALUES
                 ('', '$kode', '$nama', $jumlah, '$satuan', $harga, '$status')
             ";
+        "INSERT INTO barang (kode_barang, nama_barang, jumlah_barang, satuan_barang, harga_beli) VALUES ('$kode', '$nama', '$jumlah', '$satuan', '$harga')";
     }
 
     try {
