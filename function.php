@@ -1,9 +1,9 @@
 <?php
 // variables for connection to database
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db = "inventory";
+$user = "id22203201_adi401";
+$pass = "pw2UTS_401";
+$db = "id22203201_inventory";
 
 // connect to database
 $conn = mysqli_connect($host, $user, $pass, $db);
