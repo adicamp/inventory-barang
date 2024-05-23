@@ -55,11 +55,11 @@ function TambahUbah($data)
                 ";
     } else {
         // query insert data
-        $query = "INSERT INTO barang
+        $query = "INSERT INTO barang 
+                (kode_barang, nama_barang, jumlah_barang, satuan_barang, harga_beli, status_barang)
                 VALUES
-                ('', '$kode', '$nama', $jumlah, '$satuan', $harga, '$status')
+                ('$kode', '$nama', $jumlah, '$satuan', $harga, '$status')
             ";
-        "INSERT INTO barang (kode_barang, nama_barang, jumlah_barang, satuan_barang, harga_beli) VALUES ('$kode', '$nama', '$jumlah', '$satuan', '$harga')";
     }
 
     try {
