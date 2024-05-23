@@ -55,6 +55,10 @@ Aplikasi Inventory Barang adalah aplikasi web sederhana untuk mengelola data inv
 
 Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi kami di [adiseptiandi06@student.unsia.co.id](mailto:adiseptiandi06@student.unsia.co.id).
 
+## Demo
+
+Kunjungi [Web Inventory Barang](https://webappinventorybarang.000webhostapp.com/) untuk melihat aplikasi yang berjalan.
+
 ---
 
 Terima kasih!
