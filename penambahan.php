@@ -104,7 +104,7 @@ if (isset($_POST["submit"])) {
                                     <input type="number" class="form-control" placeholder="masukan jumlah" id="jumlah-input" name="jumlah_barang" min="1" disabled required>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary" type="submit" name="submit" id="submit-btn" disabled>Pakai</button>
+                                    <button class="btn btn-primary" type="submit" name="submit" id="submit-btn" disabled>Tambah</button>
                                 </div>
                             </form>
                         </div>

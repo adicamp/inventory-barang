@@ -19,7 +19,7 @@ if (isset($_POST["submit"])) {
         $_SESSION['msg_type'] = "danger";
     }
 
-    header("Location: penambahan.php");
+    header("Location: pemakaian.php");
     exit;
 }
 ?>
