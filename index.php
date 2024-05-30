@@ -1,3 +1,7 @@
+<!-- Nama    : Adi Septiandi 
+NIM     : 220401010197
+Kelas   : IT401
+Matkul  : Pemrograman Web II -->
 <?php
 require 'function.php';
 
